@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/14/16/22581f19a762a4f.jpg");
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 600px;
+    background: #d1d4d8;
+    padding: 20px;
+    background-image: url("https://www.iscarnet.com/wp-content/uploads/2017/01/curso-de-sketchup-vray.jpg");
+}
+
+/* Style the list inside the menu */
+
+.grandparent {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-image: url(https://i.skyrock.net/6063/55796063/pics/2345260021_1.jpg);
+    height: 600px;
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+span {
+    background-color: white;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 0%;
+    border-color: #404651
+}
+
+
+h1 {
+
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+
+
+#blue {
+    background-color: blue;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+}
+
+#green {
+    border: none;
+    background-color: green;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+
+}
+
+/* Blue */
+
+#yellow {
+    border: none;
+    background-color: yellow;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+
+}
+
+/* Red */
+#red {
+    border: none;
+    background-color: red;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+}
+
+/* Gray */
+#orange {
+    border: none;
+    background-color: orange;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+
+}
+
+#purple {
+    border: none;
+    background-color: purple;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-transition: all ease-in-out 0.5s;
+
+}
+
+/* Black */
+/* Black */
+
+table {
+
+    position: relative;
+    margin: auto;
+    top: 5px;
+
+}
+
+#canvas {
+
+    height: 500px;
+    width: 500px;
+    background: #d1d4d8;
+    padding: 20px;
+    background-color: white;
+    left: 250px;
+    top: 50px;
+
+    position: relative;
+}
+
+
+
+.clear-button {
+
+    border: none;
+    background-color: gainsboro;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+    bottom: -50px;
+    font-size: 40px;
+
+}
